@@ -1,0 +1,55 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+
+## Call Function Exercises - Deliverable one
+
+You have to have the following libraries and packages for start the project. For the execution of the project the following packages are needed:
+
+```{r}
+# install.packages("nycflights13")
+# install.packages("tidyverse")
+# install.packages("knitr")
+```
+
+In the development of the project the following packages were used for its visualization and environment
+
+```{r}
+# install.packages("devtools")
+# install.packages("roxygen2")
+# install.packages("testthat")
+# install.packages("ggplot2")
+```
+
+When creating the package in rstudio in connection with github, several core files are generated for its execution and links. We can interact and add files to highlight a better display of the package, mentioned with the installation of the previous packages.
+
+![Imagen 1. Files](images/Screenshot%20from%202023-08-28%2020-25-12.png){width="374"}
+
+You can customize your package description to the manual generation of your code.
+
+![Imagen 2. Description](images/Screenshot%20from%202023-08-28%2020-43-43.png){width="280"}
+
+which you must complete the information according to the purpose of your code.
+
+Now, which you must complete the information according to the purpose of your code, as shown in the following figure:
+
+![Figure 3. Parameter declaration](images/Screenshot%20from%202023-08-28%2020-50-52.png){width="320"}
+
+Now the following codes are compiled to generate the manual for add roxygen2 in your comments R.files
+
+```         
+Important: Before executing the lines of code you must delete the NAMESPACE file
+```
+
+```{r}
+# devtools::document()
+# devtools::build_manual()
+```
+
+-   Function interaction:
+
+![Figure 4. call function](images/Screenshot%20from%202023-08-28%2021-12-44.png){width="240"}
+
+Finally, the call of the function was made with added if that fulfilled the condition of the number of the exercise. This must share a variable with the receiver to locate it and make the call, which returns with the indicated value of the exercise that you want to view.
